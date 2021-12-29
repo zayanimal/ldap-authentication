@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.ldap.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.ldap.url."
+    },
+    {
+      "name": "ldap.enabled",
+      "type": "java.lang.String",
+      "description": "Description for ldap.enabled."
+    }
+  ] }
