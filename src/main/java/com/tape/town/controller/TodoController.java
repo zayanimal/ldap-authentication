@@ -1,9 +1,5 @@
-package com.zayanimal.todo.controller;
+package com.tape.town.controller;
 
-import com.zayanimal.todo.entity.TodoEntity;
-import com.zayanimal.todo.service.TodoService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

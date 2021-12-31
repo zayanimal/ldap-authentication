@@ -1,6 +1,6 @@
-package com.zayanimal.todo.dto;
+package com.tape.town.dto;
 
-import com.zayanimal.todo.entity.TodoEntity;
+import com.tape.town.entity.TodoEntity;
 import lombok.Getter;
 
 @Getter

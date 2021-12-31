@@ -1,4 +1,4 @@
-package com.zayanimal.todo.entity;
+package com.tape.town.entity;
 
 import lombok.Data;
 import org.springframework.ldap.odm.annotations.Attribute;

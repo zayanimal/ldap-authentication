@@ -1,6 +1,6 @@
-package com.zayanimal.todo.repository;
+package com.tape.town.repository;
 
-import com.zayanimal.todo.entity.UserEntity;
+import com.tape.town.entity.UserEntity;
 import org.springframework.data.ldap.repository.LdapRepository;
 
 import java.util.List;

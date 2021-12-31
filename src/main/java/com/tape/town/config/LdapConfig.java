@@ -1,4 +1,4 @@
-package com.zayanimal.todo.config;
+package com.tape.town.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.ldap.repository.config.EnableLdapRepositories;

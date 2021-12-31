@@ -1,6 +1,6 @@
-package com.zayanimal.todo.dto;
+package com.tape.town.dto;
 
-import com.zayanimal.todo.entity.UserEntity;
+import com.tape.town.entity.UserEntity;
 import lombok.Getter;
 
 import javax.naming.Name;
