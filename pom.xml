@@ -11,10 +11,10 @@
 	</parent>
 
 	<groupId>com.zayanimal</groupId>
-	<artifactId>todo</artifactId>
+	<artifactId>tape.town</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>todo</name>
-	<description>Data base interaction</description>
+	<name>tape-town</name>
+	<description>Independent radio</description>
 
 	<properties>
 		<java.version>11</java.version>
