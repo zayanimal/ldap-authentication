@@ -19,17 +19,33 @@ class TapeTownApplicationTests {
 	}
 
 	@Test
-	public void test() {
+	public void test() throws CloneNotSupportedException {
 		Map<PhoneNumber, String> map = new HashMap<>();
 
 		map.put(new PhoneNumber(111, 22, 444), "Jenny");
 
 		PhoneNumber pn = new PhoneNumber(111, 22, 444);
 		PhoneNumber pn2 = new PhoneNumber(111, 22, 444);
+	}
 
-		System.out.println(map.get(pn));
+	@Test
+	public void test2() throws CloneNotSupportedException {
+		HashTable hashTable = new HashTable();
 
-		System.out.println(pn.hashCode());
-		System.out.println(pn2.hashCode());
+		Entry[] arr = { buildEntry(1), buildEntry(2), buildEntry(3) };
+		hashTable.setBuckets(arr);
+
+		HashTable cloned = hashTable.clone();
+
+
+		System.out.println(hashTable);
+		System.out.println(cloned);
+	}
+
+
+	private Entry buildEntry(Integer num) {
+		return new Entry(num + 1, "Hello",
+			new Entry(num + 2, "Privet",
+				new Entry(num + 3, "Zdorova", null)));
 	}
 }

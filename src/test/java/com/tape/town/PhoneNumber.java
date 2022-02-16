@@ -45,4 +45,13 @@ public final class PhoneNumber {
     private int formatHashCode(int hash, int hash2) {
         return 31 * hash + hash2;
     }
+
+    @Override
+    public String toString() {
+        return "PhoneNumber{" +
+            "areaCode=" + areaCode +
+            ", prefix=" + prefix +
+            ", lineNum=" + lineNum +
+            '}';
+    }
 }
